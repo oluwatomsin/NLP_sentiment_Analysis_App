@@ -5,10 +5,10 @@ from sklearn.feature_extraction.text import TfidfTransformer
 import re
 from gensim.utils import simple_preprocess
 
-with open('../model&preprocessor/tfidf_dic.pkl', 'rb') as f:
+with open('./model&preprocessor/tfidf_dic.pkl', 'rb') as f:
     tfidf_dic = pickle.load(f)
 
-with open('../model&preprocessor/text_classifier.pkl', 'rb') as f:
+with open('./model&preprocessor/text_classifier.pkl', 'rb') as f:
     text_classifier = pickle.load(f)
 
 
